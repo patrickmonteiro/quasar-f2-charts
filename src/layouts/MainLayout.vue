@@ -52,7 +52,7 @@
             <q-item-label>Dashboard</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://github.com/patrickmonteiro/quasar-apexcharts">
+        <q-item clickable tag="a" target="_blank" href="https://github.com/patrickmonteiro/quasar-f2-charts">
           <q-item-section avatar>
             <q-icon name="fab fa-github" />
           </q-item-section>
