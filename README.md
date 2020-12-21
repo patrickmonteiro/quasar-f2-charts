@@ -8,7 +8,15 @@
 
 Dashboard project using Quasar and Antv F2
 
+> F2 is born for mobile, developed for developers as well as designers. It is Html5 Canvas-based, and is also compatible with Node.js, Weex and React Native. Based on the grammar of graphics, F2 provides all the chart types you'll need. Our mobile design guidelines enable better user experience in mobile visualzation projects
+
+## Dependencies used
+
+- [@antv/f2](https://f2.antv.vision/en)
+
 ## Print
+
+[![N|Solid](https://github.com/patrickmonteiro/quasar-f2-charts/blob/master/docs/print2.png?raw=true)](http://quasar-f2-charts.surge.sh/)
 
 [![N|Solid](https://github.com/patrickmonteiro/quasar-f2-charts/blob/master/docs/print.png?raw=true)](http://quasar-f2-charts.surge.sh/)
 

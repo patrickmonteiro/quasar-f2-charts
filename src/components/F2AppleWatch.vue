@@ -87,7 +87,7 @@ export default {
           }
         })
       chart.guide().html({
-        position: ['50%', '80%'],
+        position: ['50%', '92%'],
         html: `
           <div style="width: 120px;color: #246BFF;white-space: nowrap;text-align:center;">
             <p style="font-size: 23px;margin:0;">Patrick M.</p>
