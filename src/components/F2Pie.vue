@@ -1,6 +1,6 @@
 <template>
-  <card-base>
-    <canvas class="col-12" id="containerPie" />
+  <card-base ref="cardBase">
+    <canvas id="containerPie" />
   </card-base>
 </template>
 
@@ -57,7 +57,7 @@ export default {
         id: 'containerPie',
         pixelRatio: window.devicePixelRatio,
         height: 300,
-        width: window.innerWidth - 50
+        width: this.$refs.cardBase.$el.offsetWidth - 25
       })
       chart.source(this.dataChart, {
         percent: {

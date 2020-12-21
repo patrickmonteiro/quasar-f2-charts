@@ -1,6 +1,6 @@
 <template>
-  <card-base>
-    <canvas class="col-12" id="containerLine" />
+  <card-base ref="cardBase">
+    <canvas id="containerLine" />
   </card-base>
 </template>
 
@@ -54,7 +54,7 @@ export default {
         id: 'containerLine',
         pixelRatio: window.devicePixelRatio,
         height: 300,
-        width: window.innerWidth - 50
+        width: this.$refs.cardBase.$el.offsetWidth - 50
       })
 
       chart.source(this.dataChart, {

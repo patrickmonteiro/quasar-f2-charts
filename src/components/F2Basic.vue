@@ -1,6 +1,6 @@
 <template>
-  <card-base>
-    <canvas class="col-12" id="container"/>
+  <card-base ref="cardBase">
+    <canvas id="f2basic"/>
   </card-base>
 </template>
 
@@ -28,10 +28,10 @@ export default {
   methods: {
     renderChart () {
       const chart = new this.$f2.Chart({
-        id: 'container',
+        id: 'f2basic',
         pixelRatio: window.devicePixelRatio, // 指定分辨率
         height: 300,
-        width: window.innerWidth - 50
+        width: this.$refs.cardBase.$el.offsetWidth - 50
       })
 
       chart.source(this.dataChart)

@@ -1,6 +1,6 @@
 <template>
-  <card-base>
-    <canvas class="col-12" id="containerHeatmap" />
+  <card-base ref="cardBase">
+    <canvas id="containerHeatmap" />
   </card-base>
 </template>
 
@@ -86,7 +86,7 @@ export default {
         id: 'containerHeatmap',
         pixelRatio: window.devicePixelRatio,
         height: 300,
-        width: window.innerWidth - 50
+        width: this.$refs.cardBase.$el.offsetWidth - 25
       })
       chart.source(this.source, {
         name: {
